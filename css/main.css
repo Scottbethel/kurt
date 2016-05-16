@@ -2,27 +2,116 @@
 @import url(dry.css);
 body, html {
   padding: 0;
-  background-color: #fff9eb;
+  background-color: #e9f6ff;
   width: 100%;
   height: 100%;
-  max-width: 1000px;
   margin: 0 auto; }
 
 header {
-  height: 80px;
-  background-color: #ffe5b4; }
-
-.mobile-nav {
-  float: right;
-  position: relative;
-  bottom: 70px;
-  right: 10px; }
+  background-color: rgba(34, 34, 34, 0.94);
+  color: #dddddd;
+  height: 16%; }
 
 .title {
-  margin: -10px 0 0 0; }
+  margin: -10px 0 0 0;
+  font-family: "Roboto", sans-serif; }
 
 .title h1 {
   display: inline-block; }
 
-.title h6 {
-  margin-top: -2px; }
+.mobile-nav {
+  position: absolute;
+  top: 0.7em;
+  left: 0.5em; }
+
+.main-color {
+  fill: rgba(166, 166, 166, 0.4); }
+
+.main-color1 {
+  fill: white; }
+
+#menulist {
+  position: fixed;
+  top: 14%;
+  z-index: 1000;
+  width: 100%;
+  height: 18em;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+#menulist, #menulist ul {
+  color: white;
+  text-align: center;
+  line-height: 3em;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 1.2em; }
+
+.container {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  height: 15em; }
+
+#menulist a {
+  color: #a6a6a6;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+
+#mailsvg {
+  width: 33.3%;
+  float: left;
+  height: 2em; }
+
+#phonesvg {
+  float: right;
+  width: 33.3%;
+  height: 2em; }
+
+#facebooksvg {
+  float: right;
+  width: 33.3%;
+  height: 2em; }
+
+@keyframes fade {
+  0% {
+    left: 0%; }
+  20% {
+    left: 0%; }
+  25% {
+    left: -100%; }
+  45% {
+    left: -100%; }
+  50% {
+    left: -200%; }
+  70% {
+    left: -200%; }
+  75% {
+    left: -300%; }
+  95% {
+    left: -300%; }
+  100% {
+    left: -400%; } }
+div#slider {
+  height: 300px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto; }
+  div#slider figure img {
+    max-width: 20%;
+    float: left; }
+  div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s fade infinite; }
+
+#slider img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%; }

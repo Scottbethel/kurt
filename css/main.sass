@@ -1,29 +1,144 @@
 @import "response.css"
 @import "dry.css"
 
-body,html
+body, html
   padding: 0
-  background-color: rgb(255, 249, 235)
+  background-color: rgb(233, 246, 255)
   width: 100%
   height: 100%
-  max-width: 1000px
   margin: 0 auto
-
 
 
 
   //index header
 header
-  height: 80px
-  background-color: rgb(255, 229, 180)
-.mobile-nav
-  float: right
-  position: relative
-  bottom: 70px
-  right: 10px
+  background-color: rgba(34, 34, 34, 0.94)
+  color: rgba(221, 221, 221, 1)
+  height: 16%
+
+
 .title
   margin: -10px 0 0 0
+  font-family: 'Roboto', sans-serif
 .title h1
   display: inline-block
-.title h6
-  margin-top: -2px
+
+
+
+
+
+
+
+
+//*********************Navigation
+.mobile-nav
+  position: absolute
+  top: 0.7em
+  left: 0.5em
+
+.main-color
+  fill: rgba(166, 166, 166, 0.4)
+.main-color1
+  fill: rgba(255, 255, 255, 1)
+
+#menulist
+  position: fixed
+  top: 14%
+  z-index: 1000
+  width: 100%
+  height: 18em
+  background-color: rgba(0, 0, 0, 0.8)
+
+
+#menulist, #menulist ul
+
+  color: white
+  text-align: center
+  line-height: 3em
+  list-style: none
+  margin: 0 auto
+  padding: 0
+  font-size: 1.2em
+
+
+
+.container
+  text-align: center
+  display: block
+  margin: 0 auto
+  height: 15em
+
+#menulist a
+  color: rgba(166, 166, 166, 1)
+  text-decoration: none
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+#mailsvg
+  width: 33.3%
+  float: left
+  height: 2em
+
+
+#phonesvg
+  float: right
+  width: 33.3%
+  height: 2em
+
+#facebooksvg
+  float: right
+  width: 33.3%
+  height: 2em
+
+
+//#menulist ul li:nth-child(1)
+  margin-top: 10px
+  #menulist ul li:nth-child(4)
+    margin-bottom: 10px
+    //slideshow
+
+
+@keyframes fade
+  0%
+    left: 0%
+  20%
+    left: 0%
+  25%
+    left: -100%
+  45%
+    left: -100%
+  50%
+    left: -200%
+  70%
+    left: -200%
+  75%
+    left: -300%
+  95%
+    left: -300%
+  100%
+    left: -400%
+
+
+div#slider
+  height: 300px
+  overflow: hidden
+  width: 100%
+  margin: 0 auto
+  figure img
+    max-width: 20%
+    float: left
+
+
+  figure
+    position: relative
+    width: 500%
+    margin: 0
+    left: 0
+    text-align: left
+    font-size: 0
+    animation: 30s fade infinite
+#slider img
+  display: block
+  margin-left: auto
+  margin-right: auto
+  height: auto
+  width: 100%
