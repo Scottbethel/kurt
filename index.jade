@@ -14,8 +14,9 @@ html
     link(rel='stylesheet', href='slick/slick-theme.css')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js')
     script(type='text/javascript' src='jquery.js')
-    
+    link(href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css')
     link(href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,100' rel='stylesheet' type='text/css')
     
     meta(name="viewport",content="width=device-width, initial-scale=1.0")
 
@@ -23,66 +24,69 @@ html
       ****************HEADER****************
 
 body
-  header
-    div.mobile-nav
-            
-      div#button 
-        img#buttonSwap(src='images/bars.svg' data-swap='images/tool.svg' data-src='images/menuopt.svg' onclick='swapImage()')
+  div#wrap
+    header
+      div.mobile-nav
+              
+        div#button 
+          img#buttonSwap(src='images/bars.svg' data-swap='images/tool.svg' data-src='images/menuopt.svg' onclick='swapImage()')
 
-    div.title
-      h1.fix
-        span.bigger a
-        span.smaller nthing's
-        h1.fix
-          span.bigger p
-          span.smaller ossible
-        h4 Extreme Handyman and Professional Painting
-    
+      div.title
+        div#titleheader
+          h1#anythings.fix
+            span.bigger a
+            span.smaller nthing's
+          h1#possible.fix
+            span.bigger p
+            span.smaller ossible
+          h4 Extreme Handyman & Professional Painting
+      
+        
+
       
 
-    
 
 
 
-  
 
 
-  //
-    ****************Navigation Menu****************
-  
-  
-  div#menulist.hide
+    //
+      ****************Navigation Menu****************
 
-    div.container
-      ul
-        a(href='index.html')
-          li Home
-        a(href='about.html')
-          li About
-        a(href='#')
-          li Gallery
-        a(href='#')
-          li Quote
-    a(href='tel:+15555555555')
-      div#phonesvg 
-        include images/phone.svg      
-    a(href='mailto:someone@example.com?Subject=Hello%20again')  
-      div#mailsvg
-        include images/mail.svg
-    a(href='https://www.facebook.com/Anythings-Possible-Extreme-Handyman-Professional-Painting-LLC-1193580420659446/info/?tab=overview')
-      div#facebooksvg
-        include images/facebookc.svg
 
-  div#slider.clear
-    
-    figure
-      img(src='images/table.jpg' alt='slideshow image')
-      img(src='images/stain.jpg' alt='slideshow image')
-      img(src='images/table.jpg' alt='slideshow image')
-      img(src='images/stain.jpg' alt='slideshow image')
-      img(src='images/table.jpg' alt='slideshow image')
+    div#menulist.hide
 
-    
+      div.container
+        ul
+          a(href='index.html')
+            li Home
+          a(href='about.html')
+            li About
+          a(href='#')
+            li Gallery
+          a(href='#')
+            li Quote
+      a(href='tel:+15555555555')
+        div#phonesvg 
+          include images/phone.svg      
+      a(href='mailto:someone@example.com?Subject=Hello%20again')  
+        div#mailsvg
+          include images/mail.svg
+      a(href='https://www.facebook.com/Anythings-Possible-Extreme-Handyman-Professional-Painting-LLC-1193580420659446/info/?tab=overview')
+        div#facebooksvg
+          include images/facebookc.svg
+
+    div#slider.clear
+      
+      figure
+        img(src='images/table.jpg' alt='slideshow image')
+        img(src='images/stain.jpg' alt='slideshow image')
+        img(src='images/table.jpg' alt='slideshow image')
+        img(src='images/stain.jpg' alt='slideshow image')
+        img(src='images/table.jpg' alt='slideshow image')
+
+  footer#footer.smaller
+    p Anything's Possible Extreme Handyman & Professional Painting LLC  
     
       
 
