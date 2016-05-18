@@ -1,5 +1,23 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   body {
     text-align: center;
     width: 100%;
     height: 100%; } }
+@media screen and (min-width: 480px) and (max-width: 799px) {
+  #menulist ul li {
+    display: inline;
+    padding: 5%;
+    position: relative;
+    top: 25px;
+    font-weight: bold;
+    color: #fff; }
+
+  .contact {
+    position: relative;
+    top: 2em; } }
+@media screen and (min-width: 800px) {
+  .mobile-nav {
+    display: none; }
+
+  #anythings, .title h4 {
+    margin-left: 2%; } }

@@ -23,72 +23,23 @@ html
     //
       ****************HEADER****************
 
-body
-  div#wrap
-    header
-      div.mobile-nav
-              
-        div#button 
-          img#buttonSwap(src='images/bars.svg' data-swap='images/tool.svg' data-src='images/menuopt.svg' onclick='swapImage()')
+  body
+    div#wrap
+      include header.html
 
-      div.title
-        div#titleheader
-          h1#anythings.fix
-            span.bigger a
-            span.smaller nthing's
-          h1#possible.fix
-            span.bigger p
-            span.smaller ossible
-          h4 Extreme Handyman & Professional Painting
+      div#slider.clear
+        
+        figure
+          img(src='images/table.jpg' alt='slideshow image')
+          img(src='images/stain.jpg' alt='slideshow image')
+          img(src='images/table.jpg' alt='slideshow image')
+          img(src='images/stain.jpg' alt='slideshow image')
+          img(src='images/table.jpg' alt='slideshow image')
+
+    footer#footer.smaller
+      p Anything's Possible Extreme Handyman & Professional Painting LLC  
       
         
 
+        
       
-
-
-
-
-
-
-    //
-      ****************Navigation Menu****************
-
-
-    div#menulist.hide
-
-      div.container
-        ul
-          a(href='index.html')
-            li Home
-          a(href='about.html')
-            li About
-          a(href='#')
-            li Gallery
-          a(href='#')
-            li Quote
-      a(href='tel:+15555555555')
-        div#phonesvg 
-          include images/phone.svg      
-      a(href='mailto:someone@example.com?Subject=Hello%20again')  
-        div#mailsvg
-          include images/mail.svg
-      a(href='https://www.facebook.com/Anythings-Possible-Extreme-Handyman-Professional-Painting-LLC-1193580420659446/info/?tab=overview')
-        div#facebooksvg
-          include images/facebookc.svg
-
-    div#slider.clear
-      
-      figure
-        img(src='images/table.jpg' alt='slideshow image')
-        img(src='images/stain.jpg' alt='slideshow image')
-        img(src='images/table.jpg' alt='slideshow image')
-        img(src='images/stain.jpg' alt='slideshow image')
-        img(src='images/table.jpg' alt='slideshow image')
-
-  footer#footer.smaller
-    p Anything's Possible Extreme Handyman & Professional Painting LLC  
-    
-      
-
-      
-    

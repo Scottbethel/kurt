@@ -7,6 +7,7 @@ body, html
   width: 100%
   height: 100%
   margin: 0 auto
+  background-image: url("../images/table.jpg")
 
 
 
@@ -60,10 +61,9 @@ header
 
 #menulist
   position: fixed
-  top: 16%
   z-index: 1000
   width: 100%
-  height: 18em
+  height: 100vh
   background-color: rgba(0, 0, 0, 0.8)
 
 
@@ -71,24 +71,31 @@ header
 
   color: white
   text-align: center
-  line-height: 3em
+
+
+#menulist ul
+  line-height: 5rem
   list-style: none
   margin: 0 auto
   padding: 0
   font-size: 1.2em
 
-
-
 .container
   text-align: center
   display: block
   margin: 0 auto
-  height: 15em
+  height: 18em
 
 #menulist a
   color: rgba(166, 166, 166, 1)
   text-decoration: none
   -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+#menulist ul li:nth-child(1)
+  margin-top: 5px
+
+.contact
+  margin-top: 5%
 
 #mailsvg
   width: 33.3%
@@ -107,10 +114,8 @@ header
   height: 2em
 
 
-//#menulist ul li:nth-child(1)
-  margin-top: 10px
-  #menulist ul li:nth-child(4)
-    margin-bottom: 10px
+
+
     //slideshow
 
 
