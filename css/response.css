@@ -5,11 +5,8 @@
     height: 100%; }
 
   nav, #nav {
-    display: none; }
-
-  header, #header {
-    height: 110px; } }
-@media screen and (min-width: 480px) and (max-width: 799px) {
+    display: none; } }
+@media screen and (min-width: 480px) and (max-width: 878px) {
   #menulist ul li {
     display: inline;
     padding: 5%;
@@ -20,19 +17,55 @@
 
   .contact {
     position: relative;
-    top: 2em; } }
-@media screen and (min-width: 800px) {
-  .mobile-nav, #mobileheader {
+    top: 2em; }
+
+  nav, #nav {
+    display: none; } }
+@media screen and (min-width: 878px) {
+  .mobile-nav {
     display: none; }
 
   header, #header {
-    height: 75px; }
+    height: 80px; }
+
+  .headerwrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%; }
+
+  .primaryheader {
+    font-family: "Great Vibes", sans-serif;
+    position: relative;
+    top: 0;
+    margin-left: 15px;
+    font-size: 2em; }
+
+  .secondaryheader {
+    position: relative;
+    top: 0;
+    padding-left: 25px; } }
+@media screen and (min-width: 1050px) {
+  #wrap, footer, #footer {
+    max-width: 1200px; }
+
+  header, #header {
+    height: 60px; }
+
+  .headerwrap {
+    display: flex;
+    align-items: center;
+    height: 75%; }
+
+  .primaryheader {
+    font-size: 2em; }
+
+  .secondaryheader {
+    font-size: 1.4em; }
 
   nav, #nav {
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end; } }
-@media screen and (min-width: 1000px) {
-  #wrap, footer, #footer {
-    max-width: 1200px; } }

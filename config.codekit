@@ -1613,22 +1613,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/sass\/quote.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/quote.sass",
-		"outputAbbreviatedPath": "\/css\/quote.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
 	"\/sass\/response.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
